@@ -1,0 +1,80 @@
+# FastAPI and web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.0
+psycopg2-binary==2.9.9
+
+# AI/ML Models - As per copilot instructions: IndicBERT, IndicTrans2, LLaMA 3, NLLB-Indic
+# torch>=2.0.0
+# torchaudio>=2.0.0
+# torchvision>=0.15.0
+transformers==4.42.4
+sentencepiece==0.1.99
+protobuf==4.25.1
+tokenizers==0.15.0
+accelerate==0.25.0
+huggingface_hub>=0.20.0
+
+# IndicTrans2 specific
+# indictrans2==1.0.2
+
+# LLaMA 3 support
+bitsandbytes>=0.41.0
+
+# NLLB and multilingual models
+fairseq>=0.12.0
+
+# IndicBERT and sentence transformers
+sentence-transformers>=2.2.0
+
+# Speech Processing - Whisper large-v3 and TTS (VITS/Tacotron2 + HiFi-GAN)
+openai-whisper==20231117
+# TTS>=0.21.0
+soundfile>=0.12.1
+librosa>=0.10.0
+pydub>=0.25.1
+# espeak-ng>=1.51
+phonemizer>=3.2.1
+
+# Language Detection
+langdetect==1.0.9
+polyglot>=16.7.4
+
+# Evaluation Metrics - BLEU, COMET scores
+sacrebleu==2.3.1
+comet-ml>=3.35.0
+nltk>=3.8.1
+
+# Additional ML Dependencies
+# numpy>=1.22.4,<1.25.0
+# scipy==1.11.4
+
+# File Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+pdfplumber>=3.0.0
+
+# Video Processing - For video localization
+ffmpeg-python>=0.2.0
+
+# CSV Processing and Data Handling
+pandas>=1.5.0
+openpyxl>=3.1.0
+
+# Additional Text Processing
+textdistance>=4.5.0
+
+# Monitoring and Logging
+prometheus-client==0.19.0
+loguru==0.7.2
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+aiofiles==23.2.1

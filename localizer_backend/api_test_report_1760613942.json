@@ -1,0 +1,263 @@
+{
+  "summary": {
+    "total_tests": 38,
+    "passed_tests": 7,
+    "failed_tests": 31,
+    "success_rate": 18.421052631578945,
+    "average_response_time": 0.22970650000000004
+  },
+  "test_results": [
+    {
+      "test_name": "Health Check",
+      "success": true,
+      "timestamp": 1760613265.334709,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.225928,
+      "response_size": 104
+    },
+    {
+      "test_name": "Detailed Health Check",
+      "success": true,
+      "timestamp": 1760613265.430683,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.093673,
+      "response_size": 228
+    },
+    {
+      "test_name": "System Info",
+      "success": false,
+      "timestamp": 1760613265.5276413,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.094235,
+      "response_size": 85
+    },
+    {
+      "test_name": "Performance Metrics",
+      "success": true,
+      "timestamp": 1760613265.6224477,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.093907,
+      "response_size": 402
+    },
+    {
+      "test_name": "Supported Languages",
+      "success": true,
+      "timestamp": 1760613265.7010646,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.077735,
+      "response_size": 846
+    },
+    {
+      "test_name": "File Upload with Text Extraction",
+      "success": false,
+      "timestamp": 1760613266.0665643,
+      "error": null
+    },
+    {
+      "test_name": "Simple Upload",
+      "success": true,
+      "timestamp": 1760613267.0494096,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.981303,
+      "response_size": 6776
+    },
+    {
+      "test_name": "List Files",
+      "success": false,
+      "timestamp": 1760613267.168896,
+      "error": null
+    },
+    {
+      "test_name": "Get File Details",
+      "success": false,
+      "timestamp": 1760613267.168896,
+      "error": "No uploaded file ID available"
+    },
+    {
+      "test_name": "Detect Language",
+      "success": false,
+      "timestamp": 1760613267.1728952,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Translate Text",
+      "success": true,
+      "timestamp": 1760613267.3534205,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.179832,
+      "response_size": 763
+    },
+    {
+      "test_name": "Translate File",
+      "success": false,
+      "timestamp": 1760613267.3534205,
+      "error": "No uploaded file ID available"
+    },
+    {
+      "test_name": "Localize Context",
+      "success": false,
+      "timestamp": 1760613267.4494,
+      "error": null
+    },
+    {
+      "test_name": "Translation Stats",
+      "success": false,
+      "timestamp": 1760613267.5395973,
+      "error": null
+    },
+    {
+      "test_name": "Translation History",
+      "success": false,
+      "timestamp": 1760613267.5395973,
+      "error": "No uploaded file ID available"
+    },
+    {
+      "test_name": "Text-to-Speech",
+      "success": false,
+      "timestamp": 1760613267.6348748,
+      "error": null
+    },
+    {
+      "test_name": "Generate Subtitles",
+      "success": false,
+      "timestamp": 1760613301.289019,
+      "error": null
+    },
+    {
+      "test_name": "Video Localize Fast",
+      "success": false,
+      "timestamp": 1760613436.32424,
+      "error": null
+    },
+    {
+      "test_name": "Extract Audio from Video",
+      "success": false,
+      "timestamp": 1760613516.4758198,
+      "error": null
+    },
+    {
+      "test_name": "Validate Assessment",
+      "success": true,
+      "timestamp": 1760613516.5691986,
+      "error": null,
+      "status_code": 200,
+      "response_time": 0.091039,
+      "response_size": 456
+    },
+    {
+      "test_name": "Translate Assessment",
+      "success": false,
+      "timestamp": 1760613941.2913313,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Sample Assessment Formats",
+      "success": false,
+      "timestamp": 1760613941.3843942,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Trigger Model Retraining",
+      "success": false,
+      "timestamp": 1760613941.4708605,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "List Jobs",
+      "success": false,
+      "timestamp": 1760613941.5471692,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Get Job Status",
+      "success": false,
+      "timestamp": 1760613941.5481706,
+      "error": "No retraining job ID available"
+    },
+    {
+      "test_name": "Integration Upload",
+      "success": false,
+      "timestamp": 1760613941.6338646,
+      "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+    },
+    {
+      "test_name": "Integration Status",
+      "success": false,
+      "timestamp": 1760613941.7076328,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Submit Feedback",
+      "success": false,
+      "timestamp": 1760613941.78746,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "List Feedback",
+      "success": false,
+      "timestamp": 1760613941.8671327,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Server Stats",
+      "success": false,
+      "timestamp": 1760613941.9487054,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Recent Requests",
+      "success": false,
+      "timestamp": 1760613942.0356574,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Recent Transfers",
+      "success": false,
+      "timestamp": 1760613942.1124318,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Recent Activities",
+      "success": false,
+      "timestamp": 1760613942.1839745,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Active Transfers",
+      "success": false,
+      "timestamp": 1760613942.2676525,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Performance Metrics Logs",
+      "success": false,
+      "timestamp": 1760613942.3370945,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Logs Summary",
+      "success": false,
+      "timestamp": 1760613942.4165974,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "test_name": "Delete File",
+      "success": false,
+      "timestamp": 1760613942.4176548,
+      "error": "No uploaded file ID available"
+    },
+    {
+      "test_name": "Cancel Job",
+      "success": false,
+      "timestamp": 1760613942.4176548,
+      "error": "No retraining job ID available"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "assessment": {
+    "title": "Basic Computer Knowledge Quiz",
+    "instructions": "Answer all questions carefully. Each question has only one correct answer.",
+    "time_limit": 30,
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "What does CPU stand for?",
+        "options": [
+          "Central Processing Unit",
+          "Computer Personal Unit",
+          "Central Program Unit",
+          "Computer Processing Unit"
+        ],
+        "correct_answer": "Central Processing Unit"
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "question": "Which programming language is known as the backbone of web development?",
+        "options": [
+          "Python",
+          "JavaScript",
+          "Java",
+          "C++"
+        ],
+        "correct_answer": "JavaScript"
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "question": "Explain the difference between RAM and ROM in computer systems.",
+        "answer_guidelines": "Should mention that RAM is volatile memory used for temporary storage while ROM is non-volatile memory for permanent storage."
+      }
+    ]
+  }
+}

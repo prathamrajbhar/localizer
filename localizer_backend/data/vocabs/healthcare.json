@@ -1,0 +1,35 @@
+{
+  "hi": {
+    "doctor": "चिकित्सक",
+    "nurse": "नर्स",
+    "hospital": "अस्पताल",
+    "medicine": "दवा",
+    "patient": "रोगी",
+    "treatment": "उपचार",
+    "diagnosis": "निदान",
+    "surgery": "शल्य चिकित्सा",
+    "clinic": "क्लिनिक",
+    "prescription": "नुस्खा"
+  },
+  "ta": {
+    "doctor": "மருத்துவர்",
+    "nurse": "செவிலியர்",
+    "hospital": "மருத்துவமனை",
+    "medicine": "மருந்து",
+    "patient": "நோயாளி",
+    "treatment": "சிகிச்சை",
+    "diagnosis": "நோய் கண்டறிதல்",
+    "surgery": "அறுவை சிகிச்சை"
+  },
+  "bn": {
+    "doctor": "ডাক্তার",
+    "nurse": "নার্স",
+    "hospital": "হাসপাতাল",
+    "medicine": "ওষুধ",
+    "patient": "রোগী",
+    "treatment": "চিকিৎসা",
+    "diagnosis": "রোগ নির্ণয়",
+    "surgery": "অস্ত্রোপচার"
+  }
+}
+

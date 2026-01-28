@@ -1,0 +1,27 @@
+{
+  "hi": {
+    "worker": "कामगार",
+    "safety": "सुरक्षा",
+    "helmet": "हेलमेट",
+    "engineer": "इंजीनियर",
+    "contractor": "ठेकेदार",
+    "building": "भवन",
+    "cement": "सीमेंट",
+    "steel": "इस्पात",
+    "supervisor": "पर्यवेक्षक"
+  },
+  "ta": {
+    "worker": "தொழிலாளி",
+    "safety": "பாதுகாப்பு",
+    "helmet": "தலைக்கவசம்",
+    "engineer": "பொறியாளர்",
+    "building": "கட்டிடம்"
+  },
+  "bn": {
+    "worker": "শ্রমিক",
+    "safety": "নিরাপত্তা",
+    "helmet": "হেলমেট",
+    "engineer": "প্রকৌশলী"
+  }
+}
+
